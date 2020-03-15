@@ -8,12 +8,9 @@ import Page2 from "./routes/Page2";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Switch>
           <Route exact path="/" component={Page1} />
           <Route exact path="/page2" component={Page2} />
-        </Switch>
-      </BrowserRouter>
+          sdasdasdsadasdasddas
     </div>
   );
 }
