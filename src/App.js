@@ -7,11 +7,16 @@ import Page2 from "./routes/Page2";
 
 function App() {
   return (
+    <>
     <div className="App">
-          <Route exact path="/" component={Page1} />
-          <Route exact path="/page2" component={Page2} />
-          sdasdasdsadasdasddas
+      <h1>bagdan pomogi</h1>
     </div>
+    <div>
+      Hi
+      <br />
+      <Link to="/page2">Go to Page2</Link>
+    </div>
+    </>
   );
 }
 
