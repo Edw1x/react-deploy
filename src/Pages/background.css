@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/* CSS Variables */
+:root {
+  --primary-color: #b90415;
+  --primary-color-hover: #d3071b;
+  --secondary-color: #103063;
+  --secondary-color-hover: #143f85;
+  --light-color: #f4f4f4;
+}
+
+body {
+    background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+      url("https://i.ibb.co/FDGqCmM/papers-co-ag74-interstellar-wide-space-film-movie-art-33-iphone6-wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+  
+  }
+/* Section */
+.section {
+  padding: 2rem 0;
+}
+
+.section-head {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-center {
+  text-align: center;
+  position: relative;
+  image-resolution: center;
+}
+
+section#entertainment {
+  background: url(1.jpg) no-repeat bottom/cover;
+  padding: 10rem 0;
+}
+
+.gift-cards {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+}
+
+/* Showcase */
+#showcase {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+  url(https://i.gifer.com/5m5h.gif);
+background-position: center;
+background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+#showcase .container {
+  margin-top: 25vh;
+}
+
+#showcase h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#showcase h2 {
+  font-size: 2rem;
+}
+
+/* Footer */
+footer .footer-cols {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+footer .footer-cols ul {
+  list-style: none;
+}
+
+footer .footer-cols ul li:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: #444 solid 1px;
+  margin-bottom: 1rem;
+}
+
+footer .footer-bottom {
+  background: #333;
+  padding: 1rem;
+}
+
+/* Utility Classes */
+
+/* change the link color */
+.navbar-custom {
+  background-color: #15131b;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #fe4141;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #fe4141;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: red;
+}
+
+.lead {
+  font-size: 1.3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+  top: 30px;
+  position: relative;
+}
+
+/* Buttons */
+
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background: var(--primary-color-hover);
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-color-hover);
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.bg-grey {
+  background-color: #1e1b26;
+  text-align: center;
+}
+
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+/* Navigation */
+
+
+.cf:before,
+.cf:after {
+  content: '';
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+@media screen and (max-width: 580px) {
+  .hide-on-small {
+    display: none;
+  }
+
+  #showcase {
+    height: 50vh;
+  }
+
+  #showcase .container {
+    margin-top: 15vh;
+  }
+
+  #showcase h1 {
+    font-size: 3rem;
+  }
+
+  #showcase h2 {
+    font-size: 1.5rem;
+  }
+
+  .loginimg {
+    display: none;
+  }
+
+  .form-wrapper {
+    width: 32022px;
+    height: 400px;
+    margin:0;
+  }
+
+  .wrapper {
+    width: 320px;
+    height: 350px;
+    position: relative;
+    right: -1.5rem;
+    margin:0;
+  }
+
+  .email {
+    width: 240px;
+  }
+
+  .password {
+    width: 240px;
+  }
+
+  .form-control{
+    width: 320px;
+  }
+
+}
+
+@media screen and (max-width: 850px)
+{
+  .gift-cards {
+    grid-template-columns: 1fr;
+  }
+
+  footer .footer-cols {
+    display: none;
+  }
+  
+  .form-wrapper {
+    width: 300px;
+    height: 350px;
+    margin: 0;
+  }
+
+  .wrapper {
+    width: 600px;
+    height: 350px;
+    position: relative;
+    margin: 0;
+  }
+
+  .email {
+    width: 240px;
+  }
+
+  .password {
+    width: 240px;
+  }
+
+  h1-1{
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  .createAccount {
+    width: 240px;
+  }
+  
+  .but {
+    width: 220px;
+  }
+
+  a.col1{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 6px;
+  }
+
+  a {
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width: 760px) {
+  .gift-cards {
+    grid-template-columns: 1fr;
+  }
+
+  footer .footer-cols {
+    display: none;
+  }
+
+  .carousel
+  {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .movie {
+    width: 330px;
+  }
+
+  .cellphone-container{
+    width: 330px;
+    position: relative;
+    right:-1rem;
+  }
+
+  .form-wrapper {
+    width: 600px;
+    height: 350px;
+  }
+  
+  .wrapper {
+    width: 600px;
+    height: 350px;
+    position: relative;
+    right:5rem;
+  }
+
+  .email {
+    width: 240px;
+  }
+
+  .password {
+    width: 240px;
+  }
+
+  h1-1{
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  .createAccount {
+    width: 240px;
+  }
+}
+
+@media screen and (max-height: 580px) {
+  #showcase p.lead {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel
+  {
+    display: none;
+  }
+
+  .form-wrapper {
+    height: 390px;
+  }
+  
+  .wrapper {
+    height: 390px;
+  }
+
+  img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .movie {
+    width: 280px;
+  }
+
+  .loginimg {
+    display: none;
+  }
+
+  .movie-img {
+    height: 380px;
+  }
+
+  .cellphone-container{
+    width: 280px;
+  }
+
+  .form-wrapper {
+    width: 320px;
+    height: 400px;
+    margin:0;
+  }
+
+  .wrapper {
+    width: 320px;
+    height: 350px;
+    position: relative;
+    right: -1.5rem;
+    margin:0;
+  }
+
+  h1-1{
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .but {
+    width: 240px;
+  }
+
+  a.col1{
+    font-size: 10px;
+  }
+
+  .form-control{
+    width: 290px;
+  }
+}
+
+.smallPos {
+  position: relative;
+  top: -2.2rem;
+  text-align: center;
+}
+
+hr.red{
+  border: 0.5px solid white;
+}
