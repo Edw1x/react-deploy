@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/react-deploy/static/css/main.07bb9970.chunk.css",
-    "main.js": "/react-deploy/static/js/main.fcc376a1.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.fcc376a1.chunk.js.map",
+    "main.js": "/react-deploy/static/js/main.2edcf752.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.2edcf752.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.66bdc372.js",
     "runtime-main.js.map": "/react-deploy/static/js/runtime-main.66bdc372.js.map",
     "static/css/2.de424728.chunk.css": "/react-deploy/static/css/2.de424728.chunk.css",
-    "static/js/2.97e4e0e7.chunk.js": "/react-deploy/static/js/2.97e4e0e7.chunk.js",
-    "static/js/2.97e4e0e7.chunk.js.map": "/react-deploy/static/js/2.97e4e0e7.chunk.js.map",
+    "static/js/2.b7be291f.chunk.js": "/react-deploy/static/js/2.b7be291f.chunk.js",
+    "static/js/2.b7be291f.chunk.js.map": "/react-deploy/static/js/2.b7be291f.chunk.js.map",
     "index.html": "/react-deploy/index.html",
-    "precache-manifest.55f2217f7072ef694daf6eb4ac7d5870.js": "/react-deploy/precache-manifest.55f2217f7072ef694daf6eb4ac7d5870.js",
+    "precache-manifest.f940e8d21de6d5fd2bc07ed64648335a.js": "/react-deploy/precache-manifest.f940e8d21de6d5fd2bc07ed64648335a.js",
     "service-worker.js": "/react-deploy/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/react-deploy/static/css/2.de424728.chunk.css.map",
     "static/css/main.07bb9970.chunk.css.map": "/react-deploy/static/css/main.07bb9970.chunk.css.map",
-    "static/js/2.97e4e0e7.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.97e4e0e7.chunk.js.LICENSE.txt",
+    "static/js/2.b7be291f.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.b7be291f.chunk.js.LICENSE.txt",
     "static/media/background.css": "/react-deploy/static/media/1.f6faa4cc.jpg",
-    "static/media/logo.svg": "/react-deploy/static/media/logo.5d5d9eef.svg",
     "static/media/pedor1.jpg": "/react-deploy/static/media/pedor1.2dc5fcfc.jpg",
     "static/media/pedor2.jpg": "/react-deploy/static/media/pedor2.e5ca90f3.jpg",
     "static/media/pedor3.jpg": "/react-deploy/static/media/pedor3.8b3395a7.jpg",
@@ -25,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.66bdc372.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.97e4e0e7.chunk.js",
+    "static/js/2.b7be291f.chunk.js",
     "static/css/main.07bb9970.chunk.css",
-    "static/js/main.fcc376a1.chunk.js"
+    "static/js/main.2edcf752.chunk.js"
   ]
 }
