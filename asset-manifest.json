@@ -1,27 +1,32 @@
 {
   "files": {
     "main.css": "/react-deploy/static/css/main.e020780f.chunk.css",
-    "main.js": "/react-deploy/static/js/main.b7229643.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.b7229643.chunk.js.map",
+    "main.js": "/react-deploy/static/js/main.7f910027.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.7f910027.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.66bdc372.js",
     "runtime-main.js.map": "/react-deploy/static/js/runtime-main.66bdc372.js.map",
     "static/css/2.de424728.chunk.css": "/react-deploy/static/css/2.de424728.chunk.css",
-    "static/js/2.1414d655.chunk.js": "/react-deploy/static/js/2.1414d655.chunk.js",
-    "static/js/2.1414d655.chunk.js.map": "/react-deploy/static/js/2.1414d655.chunk.js.map",
+    "static/js/2.39b18fd9.chunk.js": "/react-deploy/static/js/2.39b18fd9.chunk.js",
+    "static/js/2.39b18fd9.chunk.js.map": "/react-deploy/static/js/2.39b18fd9.chunk.js.map",
     "index.html": "/react-deploy/index.html",
-    "precache-manifest.6264343db86b1aa942b17f7b4d3afaeb.js": "/react-deploy/precache-manifest.6264343db86b1aa942b17f7b4d3afaeb.js",
+    "precache-manifest.6bf37a8f6f8d41ce987e54b7ee48ac7e.js": "/react-deploy/precache-manifest.6bf37a8f6f8d41ce987e54b7ee48ac7e.js",
     "service-worker.js": "/react-deploy/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/react-deploy/static/css/2.de424728.chunk.css.map",
     "static/css/main.e020780f.chunk.css.map": "/react-deploy/static/css/main.e020780f.chunk.css.map",
-    "static/js/2.1414d655.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.1414d655.chunk.js.LICENSE.txt",
+    "static/js/2.39b18fd9.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.39b18fd9.chunk.js.LICENSE.txt",
     "static/media/background.css": "/react-deploy/static/media/1.f6faa4cc.jpg",
-    "static/media/logo.svg": "/react-deploy/static/media/logo.5d5d9eef.svg"
+    "static/media/logo.svg": "/react-deploy/static/media/logo.5d5d9eef.svg",
+    "static/media/pedor1.jpg": "/react-deploy/static/media/pedor1.2dc5fcfc.jpg",
+    "static/media/pedor2.jpg": "/react-deploy/static/media/pedor2.e5ca90f3.jpg",
+    "static/media/pedor3.jpg": "/react-deploy/static/media/pedor3.8b3395a7.jpg",
+    "static/media/pedor4.jpg": "/react-deploy/static/media/pedor4.2342ebd0.jpg",
+    "static/media/team.jpg": "/react-deploy/static/media/team.1629a60f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.66bdc372.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.1414d655.chunk.js",
+    "static/js/2.39b18fd9.chunk.js",
     "static/css/main.e020780f.chunk.css",
-    "static/js/main.b7229643.chunk.js"
+    "static/js/main.7f910027.chunk.js"
   ]
 }
